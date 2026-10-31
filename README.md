@@ -31,7 +31,7 @@ The [architecture](ARCHITECTURE.md) explains the flow. The [migration case study
 
 The latest inspected GitHub Actions run completed tracked-content validation and deployment successfully. The preceding inspected run failed tracked-content validation and skipped deployment, providing concrete evidence that the deployment dependency was enforced in those runs.
 
-The full private historical-evidence audit was not rerun here. A passing tracked-content job explicitly does not claim that private archives passed. The task tracker also retains publication-placement validation work and a reported news-image regression as open. They are described in [limitations and engineering lessons](ENGINEERING-NOTES.md).
+The October 31 follow-up exercised the private suite with locally available historical evidence and found unresolved preservation and fixture failures. A passing tracked-content job explicitly does not claim that the full private archive audit passed. The task tracker also retains publication-placement validation work and a reported news-image regression as open. They are described in [limitations and engineering lessons](ENGINEERING-NOTES.md).
 
 ## Safe review route
 
