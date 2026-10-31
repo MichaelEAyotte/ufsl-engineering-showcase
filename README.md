@@ -42,7 +42,7 @@ The [synthetic migration example](evaluation/MIGRATION-EXAMPLE.md) illustrates i
 
 ## Run the code in this repository
 
-Requires Node.js 18 or newer. No package installation, credentials, network connection or deployment is needed.
+Requires Node.js 22 or newer (validated on Node.js 24). No package installation, credentials, network connection or deployment is needed.
 
 ```text
 npm test
@@ -50,3 +50,7 @@ npm run demo
 ```
 
 See [source provenance, scope and evaluation](CODE-REVIEW.md). Tests exercise the standalone code, not the private production system. This repository has a clean history and no deployment workflow. It remains private pending publication and license approval.
+
+## Review and maintenance
+
+The standalone tests run in a test-only GitHub Actions workflow with read-only repository access, no deployment and no production secrets. They do not establish live-system acceptance. Report a suspected sensitive-data exposure privately to the repository owner; do not place the sensitive value in an issue. Public release and licensing require owner review.
