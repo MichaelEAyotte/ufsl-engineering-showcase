@@ -26,6 +26,6 @@ Several consumers need consistent facts: seasons, member profiles, career statis
 
 ## Status and limits
 
-The repository README documents canonical season files for 2012�2026, and the tree and tooling support a substantial migration/validation implementation. This audit inspected representative contracts and code; it did not independently reconstruct every season or rerun the private full-evidence audit. Older archive documentation contains historical blocked acquisitions; it should not be presented as the current outcome of all later migration work.
+The repository README documents canonical season files for 2012–2026, and the tree and tooling support a substantial migration/validation implementation. This audit inspected representative contracts and code; it did not independently reconstruct every season or rerun the private full-evidence audit. Older archive documentation contains historical blocked acquisitions; it should not be presented as the current outcome of all later migration work.
 
 The [synthetic example](evaluation/MIGRATION-EXAMPLE.md) demonstrates the decision rules with fictional data. No real member or account data is included.

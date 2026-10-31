@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc"><title id="title">UFSL � preserved evidence to validated publishing</title><desc id="desc">Separate source preservation, factual data, editorial review and deployment.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc"><title id="title">UFSL — preserved evidence to validated publishing</title><desc id="desc">Separate source preservation, factual data, editorial review and deployment.</desc>
 <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#53D6C7"/></marker></defs>
 <rect width="1200" height="500" rx="20" fill="#0B1324"/>
-<text x="38" y="54" fill="#E8EFF7" font-family="Arial,sans-serif" font-size="29" font-weight="700">UFSL � preserved evidence to validated publishing</text>
+<text x="38" y="54" fill="#E8EFF7" font-family="Arial,sans-serif" font-size="29" font-weight="700">UFSL — preserved evidence to validated publishing</text>
 <text x="38" y="88" fill="#B6C5D8" font-family="Arial,sans-serif" font-size="17">Separate source preservation, factual data, editorial review and deployment.</text>
 <path d="M280,170 L365,170" fill="none" stroke="#53D6C7" stroke-width="2.5" marker-end="url(#arrow)"/>
 <path d="M605,170 L690,170" fill="none" stroke="#53D6C7" stroke-width="2.5" marker-end="url(#arrow)"/>

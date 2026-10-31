@@ -1,4 +1,4 @@
-# UFSL � Fantasy Sports Data and Publishing
+# UFSL — Fantasy Sports Data and Publishing
 
 A static fantasy sports website backed by JavaScript data tooling, historical-source preservation and validation gates. Visitors can browse league news, seasons, members and historical results without access to the private development repository.
 
@@ -15,7 +15,7 @@ My work covers the website modernization, canonical data structure, migration an
 ## What visitors can evaluate
 
 - A browser-based view of league news, member profiles, seasons and history.
-- A canonical data approach covering the documented 2012�2026 season range.
+- A canonical data approach covering the documented 2012–2026 season range.
 - A distinction between historical labels and current team-name display metadata.
 - An engineering process that validates factual and editorial outputs before deployment.
 

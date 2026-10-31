@@ -7,7 +7,7 @@
 | Sample A | person-a | Cedar | Cedar United | 6 | 4 | Unavailable |
 | Sample B | person-a | Cedar United | Cedar United | 7 | 3 | Available in this fictional case |
 
-The career record is 13 wins and 7 losses only because both season records are explicitly attributed to the same established person. The historical label �Cedar� remains intact for Sample A. A current rename changes a current selector, not the captured historical label.
+The career record is 13 wins and 7 losses only because both season records are explicitly attributed to the same established person. The historical label “Cedar” remains intact for Sample A. A current rename changes a current selector, not the captured historical label.
 
 Missing weekly scores do not become zeroes and do not support invented individual matchups. If a third source contains only a team name with no reliable human association, the example's aggregation must stop for review rather than attaching it automatically to person-a.
 

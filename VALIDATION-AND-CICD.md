@@ -25,7 +25,7 @@ Private archive exclusions are declared scope boundaries. Missing tracked requir
 
 ## GitHub evidence inspected in this audit
 
-At commit `5376d91`, run `40872452751` completed both �Validate Tracked Public Content� and �Build and Deploy Job� successfully. At the preceding inspected commit `0b15d23`, run `40872137836` failed �Validate tracked public content� and the deployment job was skipped. The private owner audit includes the exact links.
+At commit `5376d91`, run `40872452751` completed both “Validate Tracked Public Content” and “Build and Deploy Job” successfully. At the preceding inspected commit `0b15d23`, run `40872137836` failed “Validate tracked public content” and the deployment job was skipped. The private owner audit includes the exact links.
 
 This confirms the observed job outcomes and dependency behavior. It does not identify the earlier failure's root cause, prove every application test passed, or replace a complete live-site review. No workflow was changed or rerun during this audit.
 
