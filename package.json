@@ -1,0 +1,13 @@
+{
+  "name": "ufsl-engineering-showcase",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Production-derived season aggregation with fictional data.",
+  "scripts": {
+    "test": "node --test",
+    "demo": "node examples/demo.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
