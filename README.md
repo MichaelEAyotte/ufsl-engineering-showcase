@@ -54,3 +54,5 @@ See [source provenance, scope and evaluation](CODE-REVIEW.md). Tests exercise th
 ## Review and maintenance
 
 The standalone tests run in a test-only GitHub Actions workflow with read-only repository access, no deployment and no production secrets. They do not establish live-system acceptance. Report a suspected sensitive-data exposure privately to the repository owner; do not place the sensitive value in an issue. Public release and licensing require owner review.
+
+[Publication decision, licensing recommendation and final release gates](PUBLICATION.md).
