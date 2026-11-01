@@ -2,6 +2,7 @@
   "name": "ufsl-engineering-showcase",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "description": "Production-derived season aggregation with fictional data.",
   "scripts": {
     "test": "node --test",

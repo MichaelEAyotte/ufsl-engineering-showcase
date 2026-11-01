@@ -1,6 +1,6 @@
 # UFSL — Fantasy Sports Data and Publishing
 
-A static fantasy sports website backed by JavaScript data tooling, historical-source preservation and validation gates. Visitors can browse league news, seasons, members and historical results without access to the private development repository.
+A case study and production-derived JavaScript season-aggregation module from a static fantasy sports website. The live site lets visitors browse league news, seasons, members and historical results; this repository provides the bounded source module and fictional examples for review.
 
 **Live demonstration:** [ufsl.club](https://ufsl.club/). The homepage returned HTTP 200 during the October 31, 2026 review. This was a reachability check, not a complete live-site functional test.
 
@@ -29,7 +29,7 @@ The [architecture](ARCHITECTURE.md) explains the flow. The [migration case study
 
 ## Testing and current status
 
-The latest inspected GitHub Actions run completed tracked-content validation and deployment successfully. The preceding inspected run failed tracked-content validation and skipped deployment, providing concrete evidence that the deployment dependency was enforced in those runs.
+The production GitHub Actions runs inspected for the October 31, 2026 case study included a successful tracked-content validation and deployment. The preceding inspected run failed tracked-content validation and skipped deployment, providing concrete evidence that the deployment dependency was enforced in those runs.
 
 The October 31 follow-up exercised the private suite with locally available historical evidence and found unresolved preservation and fixture failures. A passing tracked-content job explicitly does not claim that the full private archive audit passed. The task tracker also retains publication-placement validation work and a reported news-image regression as open. They are described in [limitations and engineering lessons](ENGINEERING-NOTES.md).
 
@@ -49,10 +49,10 @@ npm test
 npm run demo
 ```
 
-See [source provenance, scope and evaluation](CODE-REVIEW.md). Tests exercise the standalone code, not the private production system. This repository has a clean history and no deployment workflow. It remains private pending publication and license approval.
+See [source provenance, scope and evaluation](CODE-REVIEW.md). The five passing tests exercise the standalone code, not the private production system. This repository has no deployment workflow. The selected source, tests, fictional examples and original documentation/diagrams are available under the [MIT License](LICENSE), copyright Michael E. Ayotte.
 
 ## Review and maintenance
 
-The standalone tests run in a test-only GitHub Actions workflow with read-only repository access, no deployment and no production secrets. They do not establish live-system acceptance. Report a suspected sensitive-data exposure privately to the repository owner; do not place the sensitive value in an issue. Public release and licensing require owner review.
+The standalone tests run in a test-only GitHub Actions workflow with read-only repository access, no deployment and no production secrets. They do not establish live-system acceptance. Report a suspected sensitive-data exposure privately to [Michael E. Ayotte](https://github.com/MichaelEAyotte); do not place the sensitive value in an issue.
 
-[Publication decision, licensing recommendation and final release gates](PUBLICATION.md).
+[Publication scope, licensing and release checks](PUBLICATION.md).

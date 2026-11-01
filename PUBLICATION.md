@@ -1,23 +1,23 @@
-# Publication decision — October 31, 2026
+# Publication scope and release checks
 
-**Prepared for owner approval; repository remains PRIVATE.** Recommended initial release candidate on `audit/prelaunch-2026-10-31`. Do not change visibility or merge the branch until approved.
+Owner-approved public release, reviewed October 31, 2026. Michael E. Ayotte authorized MIT licensing, promotion of the reviewed branch to `main`, and public publication of this selected repository. This document records the release scope; the repository visibility setting determines whether it is publicly accessible.
 
-## Evidence and scope
+## Source and licensing
 
-The season-aggregation function block matches private UFSL commit 5376d91c1bcd6883431d37d904217d17d46b61f7 exactly. Wrappers, tests and examples are AI-assisted and use fictional records. The full private publishing/history system is outside this test result.
+The season-aggregation function block matches private UFSL commit `5376d91c1bcd6883431d37d904217d17d46b61f7` exactly. Its original source addition is attributed to Michael E. Ayotte; no conflicting source-file notice was found. Wrappers, tests and fictional examples were prepared with AI assistance. The full private publishing/history system is outside this release.
 
-Executed `npm test`: **5 passing tests**. Executed `npm run demo`: successful. Node 24.19.0. No npm runtime or development dependencies are declared; there is no dependency tree to audit with npm. GitHub Actions is test-only, uses pinned actions, read-only contents permission and disabled persisted checkout credentials. Actionlint passed. Runtime and hosted runner updates remain external dependencies.
+The [MIT License](LICENSE), copyright 2026 Michael E. Ayotte, applies to the selected source, tests, fictional examples and original diagrams and documentation in this repository. Preserve its copyright and permission notice in copies or substantial portions. [Source provenance and limitations](CODE-REVIEW.md) describe the extraction and rights review.
 
-The refreshed reachable history contained 4 commits and 26 distinct text blobs, with no binary/non-UTF8 blobs. Gitleaks 8.30.1 and the existing private-address/credential/email pattern checks reported no findings. Git integrity checks passed. This includes all fetched branches and tags, not just the current files. The final publication commit must be scanned as well; scans reduce risk but cannot prove absence of every sensitive detail.
+The license does not cover the separately hosted production website, private league/member data, ESPN data or services, third-party images, or private migration archives. Product names identify the original project or dependencies and do not imply endorsement.
 
-Local Markdown targets resolve. SVG illustrations are sanitized explanatory diagrams, not operational screenshots; any screenshot placeholder is labeled. There are no copied production deployment files, account payloads or client records in the selected source. External GitHub project links resolve for the owner while private and will require publication before anonymous visitors can open them.
+## Validation scope
 
-## Licensing recommendation
+The release checks run `npm test` (**5 passing tests**) and `npm run demo` successfully on Node 24. No npm runtime or development dependencies are declared. Keep the package's `private` flag: public GitHub visibility does not publish an npm package.
 
-Recommend **MIT for the selected source, tests, examples and original diagrams/documentation**, subject to the owner confirming the right to license this material and retaining any required notices. No third-party package or template implementation is bundled here. Product names identify dependencies and do not imply endorsement. Source provenance does not itself prove exclusive copyright ownership.
+The GitHub Actions workflow runs standalone tests and the example on `main` and the review branch. It has read-only repository permission, pinned actions, disabled persisted checkout credentials, no production secrets and no deployment step. Actionlint and local Markdown-link checks are part of the release verification. Hosted runner and runtime updates remain external dependencies.
 
-No LICENSE was applied and no licensing rights were granted by this preparation. Approve the exact license and copyright holder before publication. [MIT terms and conditions](https://choosealicense.com/licenses/mit/) require retaining the copyright and permission notice. Keep private production repositories and their separate template/content rights out of this release.
+The fetched reachable history and final release changes are checked with Gitleaks and private-address, credential and sensitive-content patterns, alongside Git integrity checks. No finding was identified in the reviewed candidate history. No operational screenshot, binary archive, account payload, private endpoint or client record is bundled. These checks reduce risk; they do not prove every possible sensitive detail is absent.
 
-## Release gate
+## Publication verification
 
-Approve rights/provenance and MIT, then approve merging this review branch into main and changing this repository to PUBLIC. Recheck remote head, all reachable history and the test-only CI at that moment. Verify the rendered default README and anonymous clone after publication. Keep the npm `private` flag; public GitHub visibility does not require publishing an npm package.
+Before promotion, compare the remote heads with the reviewed candidate and require successful test-only CI. After public publication, verify the default README, MIT license, anonymous clone, tests and example. The private production system and its deployments remain outside these checks.
