@@ -49,10 +49,14 @@ npm test
 npm run demo
 ```
 
-See [source provenance, scope and evaluation](CODE-REVIEW.md). The five passing tests exercise the standalone code, not the private production system. This repository has no deployment workflow. The selected source, tests, fictional examples and original documentation/diagrams are available under the [MIT License](LICENSE), copyright Michael E. Ayotte.
+See [source provenance, scope and evaluation](CODE-REVIEW.md). The five passing tests exercise the standalone code, not the private production system. This repository has no deployment workflow.
 
 ## Review and maintenance
 
 The standalone tests run in a test-only GitHub Actions workflow with read-only repository access, no deployment and no production secrets. They do not establish live-system acceptance. Report a suspected sensitive-data exposure privately to [Michael E. Ayotte](https://github.com/MichaelEAyotte); do not place the sensitive value in an issue.
 
-[Publication scope, licensing and release checks](PUBLICATION.md).
+## License and contributions
+
+The current distribution offers eligible owner-controlled, protectable original material under [PolyForm Noncommercial 1.0.0](LICENSE). This is source-available software, not OSI-approved open source. See [NOTICE](NOTICE) for the covered material and exclusions; the official license defines permitted purposes and organizations.
+
+Noncommercial use, modification and redistribution are permitted subject to the license. Commercial uses outside the license's permitted purposes require separate written permission from [Michael E. Ayotte](https://github.com/MichaelEAyotte). [Earlier MIT permissions continue](PUBLICATION.md#earlier-mit-publication), including commercial use and redistribution; the unchanged code remains obtainable from historical MIT commits. Read the [contribution terms](CONTRIBUTING.md) before submitting work.
