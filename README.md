@@ -29,9 +29,9 @@ The [architecture](ARCHITECTURE.md) explains the flow. The [migration case study
 
 ## Testing and current status
 
-The production GitHub Actions runs inspected for the October 31, 2026 case study included a successful tracked-content validation and deployment. The preceding inspected run failed tracked-content validation and skipped deployment, providing concrete evidence that the deployment dependency was enforced in those runs.
+The initial October 31, 2026 review found private-suite preservation and fixture failures. Later that day, the final production revision completed the full suite with **778 tests: 777 passed, zero failed and one existing Windows symlink-capability skip**, in 650.84 seconds. The run included the private historical-evidence replay. These are previously executed release results verified against the saved run receipt and log; this showcase review did not rerun that private suite.
 
-The October 31 follow-up exercised the private suite with locally available historical evidence and found unresolved preservation and fixture failures. A passing tracked-content job explicitly does not claim that the full private archive audit passed. The task tracker also retains publication-placement validation work and a reported news-image regression as open. They are described in [limitations and engineering lessons](ENGINEERING-NOTES.md).
+The later production release also passed hosted tracked-content validation and deployment, followed by bounded live checks of statistics, season filtering, news, articles and mobile navigation. The full local evidence result and hosted CI remain separate claims. The five standalone tests in this repository cover only the extracted aggregation module. See the [verification chronology](VALIDATION-AND-CICD.md) and [limitations and engineering lessons](ENGINEERING-NOTES.md).
 
 ## Safe review route
 

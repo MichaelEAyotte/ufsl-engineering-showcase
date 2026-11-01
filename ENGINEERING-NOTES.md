@@ -10,11 +10,13 @@ Fact refresh, article generation, editorial approval and public deployment affec
 
 ## Deployment success is scoped
 
-GitHub's successful run shows that its configured tracked-content checks and deployment completed. Private archives were outside that CI scope. The private evidence audit is a separate claim with separate prerequisites.
+GitHub's successful run shows that its configured tracked-content checks and deployment completed. Private archives were outside that CI scope. The later October 31, 2026 full local release run separately passed 777 of 778 tests, with zero failures and one existing Windows symlink-capability skip. It included the private historical-evidence replay. The saved receipt and log support that result; this showcase's five tests do not reproduce it.
 
-## Open defects belong in the case study
+## Preserve the failure and repair chronology
 
-The task tracker records a request to improve publication file-placement and completion validation, plus a report that news typewriter images disappear after a new article is published. The root cause of the image issue was not established by this review. These remain open follow-ups; no repair or regression result is claimed here.
+The initial review found preservation and fixture failures. The later release verification followed repairs to fixtures, temporary-directory isolation, Windows browser startup, deterministic output and identity checks, plus recovery of authenticated historical originals. Historical fingerprints and publishing gates were retained; the final full suite had no failures.
+
+Earlier tracker reports concerned publication file placement/completion and disappearing news images after publication. Later live Edge checks covered image loading, news/article navigation, statistics and season filtering at desktop and 390px widths. Those snapshot checks did not reproduce a fresh article-publication cycle, so they do not establish that every publishing behavior is defect-free.
 
 ## Presentation gap
 
@@ -22,4 +24,4 @@ The existing repository README primarily addresses an operator. This public show
 
 ## Limits
 
-No comprehensive current accessibility, performance or browser compatibility benchmark was executed. The public homepage was reachable. Source code and recent CI results were inspected, but the complete production application and all history were not audited for every defect. League data, images and external-source rights need separate review before any source or dataset release.
+No comprehensive accessibility, performance or cross-browser benchmark was executed. The recorded live checks used Edge; hosted validation used Chrome. The complete production application and all history were not audited for every possible defect. League data, third-party images and external-source rights are excluded from this licensed source release.

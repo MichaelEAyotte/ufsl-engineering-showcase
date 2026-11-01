@@ -23,12 +23,16 @@ The documented promotion process compares destination bytes against its captured
 
 Private archive exclusions are declared scope boundaries. Missing tracked requirements still fail. Neither an orchestration agent nor generated prose should waive a validator failure.
 
-## GitHub evidence inspected in this audit
+## Recorded verification chronology
 
 At commit `5376d91`, run `40872452751` completed both “Validate Tracked Public Content” and “Build and Deploy Job” successfully. At the preceding inspected commit `0b15d23`, run `40872137836` failed “Validate tracked public content” and the deployment job was skipped. The private owner audit includes the exact links.
 
-This confirms the observed job outcomes and dependency behavior. It does not identify the earlier failure's root cause, prove every application test passed, or replace a complete live-site review. That observation describes the original production runs. The subsequent October 31 private review branch hardens actions and adds test-only validation; no production deployment was performed. The full local evidence suite was also exercised and retains unresolved preservation/fixture failures.
+These original observations confirm the job outcomes and dependency behavior at that point. The initial October 31 private review then added hardening and test-only validation, without a production deployment in that initial stage. Its full local suite still had preservation and fixture failures; that was an intermediate result, superseded by the later release verification below.
 
-## Existing follow-ups
+On October 31, 2026, America/Chicago time (November 1 UTC), the final production revision completed **778 tests: 777 passed, zero failed and one existing Windows symlink-capability skip**, in 650.84 seconds. The run included the complete physical historical replay with locally authenticated private evidence. Recovery authenticated 205 historical originals against existing hashes, while 853 protected tracked files and historical pins remained unchanged. The saved exact-revision run receipt and log were checked for this case-study update; the private suite was not rerun as part of publishing this showcase.
 
-The tracker keeps publication file-placement/completion validation and a reported news-image regression open. A correct CI dependency is valuable, but it is not evidence that the present validation set catches every publishing defect.
+Hosted Node 22/Chrome validation also passed. The later approved production release completed tracked-content validation and deployment, followed by 261 public-file hash comparisons, 42 literal-404 boundary checks and 12 bounded live Edge checks. Statistics, season filtering, news/article navigation and mobile navigation were among the live checks. Private operational records, archives and production configuration remain excluded from this repository.
+
+## Remaining verification limits
+
+The full local result, hosted tracked-content validation and live browser checks have different scopes. None implies that the five standalone showcase tests validate the production system. Earlier publication-placement and news-image reports remain part of the engineering history; the recorded live snapshot checks do not reproduce every future article-publication cycle or establish comprehensive browser, accessibility or performance coverage.
